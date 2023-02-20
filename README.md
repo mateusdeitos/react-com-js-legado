@@ -1,11 +1,11 @@
-# Testando a integração entre react e código js legado
+# Integration and communication between react components and vanilla JS
 
-# Como rodar
+# How to run
 
-- instalar dependências (yarn ou npm install)
-- rodar `yarn watch`
-- Abrir o arquivo index.html no browser
+- install dependencies (yarn or npm install)
+- run `yarn watch`
+- open index.html in the live preview (browser)
 
-# Funcionamento
+# How it works
 
-Para poder comunicar entre o arquivo legado.js e App.tsx foi criado uma classe singleton para gerenciamento de eventos.
+To be able to communicate between the code inside 'legado.js' and 'App.tsx' an singleton class was created to to act as a message broker between both codebases.
